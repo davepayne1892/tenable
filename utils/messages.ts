@@ -17,6 +17,10 @@ export async function score(answers: answers) {
     await wait(1);
     console.log(`${index + 1}. ${answers[index]}`);
   }
+  await wait(5);
+  console.log(
+    `All answers correct whenever the article I pinched them from was written.`
+  );
 }
 
 export async function stickMessage(
