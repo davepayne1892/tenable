@@ -6,15 +6,15 @@ const question: string =
 
 const correctAnswers: answers = [
   ["iron man"],
-  ["the incredible hulk"],
+  ["the incredible hulk", "incredible hulk"],
   ["iron man 2"],
   ["thor"],
   ["captain america the first avenger"],
   ["the avengers"],
   ["iron man 3"],
   ["thor the dark world"],
-  ["captain america winter soldier"],
-  ["guardians of the galaxy"],
+  ["captain america winter soldier", "winter soldier"],
+  ["guardians of the galaxy", "gotg"],
 ];
 
 tenable(question, correctAnswers);

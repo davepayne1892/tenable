@@ -2,19 +2,19 @@ import { tenable } from "../../tenable";
 import { answers } from "../../types/answers";
 
 const question =
-  "what are the ten ingredients of a classic victoria sponge (according to bbc good food... there are only 9 really, the tenth is a bonus that makes cakes taste nicer)?";
+  "what are the ten ingredients of an 'Easy Chocolate Cake'  (according to bbc good food)?";
 
 const answers: answers = [
-  ["caster sugar"],
+  ["caster sugar", "sugar"],
   ["butter"],
   ["eggs"],
   ["self raising flour"],
-  ["baking powder"],
+  ["cocoa powder", "cocoa"],
+  ["baking powder", "baking soda"],
   ["milk"],
   ["icing sugar"],
   ["vanilla extract"],
-  ["jam"],
-  ["love"],
+  ["chocolate"],
 ];
 
 tenable(question, answers);
