@@ -7,7 +7,7 @@ const question =
 const answers: answers = [
   ["Novak Djokovic", "djokovic"],
   ["Roger Federer", "federer"],
-  ["andy murray"],
+  ["andy murray", "murray"],
   [
     "Rafa Nadal / Venus Williams",
     "Rafael Nadal",

@@ -7,7 +7,7 @@ const question =
 const correctAnswers: answers = [
   ["total recall"],
   ["kindergarten cop"],
-  ["terminator 2 judgement day"],
+  ["terminator 2 judgement day", "terminator 2"],
   ["last action hero"],
   ["true lies"],
   ["junior"],
